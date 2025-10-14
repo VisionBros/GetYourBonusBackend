@@ -22,38 +22,26 @@ bonuses: List[Bonus] = [
     Bonus(
         id=uuid4(),
         name="BuddyBank", 
-        link="https://www.buddy.unicredit.it", 
-        referralCode="APL2025", 
+        link="https://apps.apple.com/it/app/buddy-unicredit/id1254438272?l=en-GB", 
+        referralCode="E0CD49", 
         expired=False, 
         imageURL="https://play-lh.googleusercontent.com/NXsVzRkiAXdi3DMll0e9-lrilzPC0MWSf3ZOb8EzqsHQ6dy1x_Vp7jHB22TY0f61kvKV",
-        claim="Get €50 on first purchase",
-        description="This is BuddyBank",
+        claim="Offerta valida fino al 23/10/2025",
+        description="Scarica l'app e iserisci il codice. Ricevi 50€ con un minimo di 10€ di spesa.",
         amount=50,
         tag="bank"
         ),
     Bonus(
         id=uuid4(), 
-        name="Sisal", 
-        link="https://www.sisal.it", 
-        referralCode="SIL2025", 
-        expired=False, 
-        imageURL="https://www.romagiallorossa.it/wp-content/uploads/2024/02/sisal-logo.jpg",
-        claim="Take the bonus",
-        description="This is Sisal",
-        amount=100,
-        tag="betting"
-        ),
-    Bonus(
-        id=uuid4(), 
         name="Revolut", 
-        link="https://www.revolut.com/it-IT/", 
-        referralCode="REV2025", 
+        link="https://revolut.com/referral/?referral-code=llangella00!OCT1-25-AR-MDL-ROI&geo-redirect", 
+        referralCode="", 
         expired=False, 
         imageURL="https://images.squarespace-cdn.com/content/v1/6576ee804a4a13284e8d6af6/1adfd922-c96f-401f-8dea-4624ef4da61c/Revolut-logo.png",
-        claim="Get $100",
-        description="This is Revolut",
-        amount=100,
-        tag="betting"
+        claim="Offerta valida fino al 21/10/202",
+        description="Fai 3 acquisti di almeno 5€ l'uno e ottieni 50€.",
+        amount=50,
+        tag="bank"
         )
 ]
 
