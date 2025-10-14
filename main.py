@@ -42,6 +42,18 @@ bonuses: List[Bonus] = [
         description="This is Sisal",
         amount=100,
         tag="betting"
+        ),
+    Bonus(
+        id=uuid4(), 
+        name="Revolut", 
+        link="https://www.revolut.com/it-IT/", 
+        referralCode="REV2025", 
+        expired=False, 
+        imageURL="https://images.squarespace-cdn.com/content/v1/6576ee804a4a13284e8d6af6/1adfd922-c96f-401f-8dea-4624ef4da61c/Revolut-logo.png",
+        claim="Get $100",
+        description="This is Revolut",
+        amount=100,
+        tag="betting"
         )
 ]
 
