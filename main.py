@@ -53,3 +53,7 @@ async def get_bonuses():
 async def add_bonus(bonus: Bonus):
     bonuses.append(bonus)
     return bonus
+
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy"}
