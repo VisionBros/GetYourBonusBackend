@@ -42,18 +42,6 @@ bonuses: List[Bonus] = [
         description="Fai 3 acquisti di almeno 5€ l'uno e ottieni 50€.",
         amount=50,
         tag="bank"
-        ),
-    Bonus(
-        id=uuid4(), 
-        name="Test", 
-        link="https://revolut.com/referral/?referral-code=llangella00!OCT1-25-AR-MDL-ROI&geo-redirect", 
-        referralCode="", 
-        expired=False, 
-        imageURL="https://images.squarespace-cdn.com/content/v1/6576ee804a4a13284e8d6af6/1adfd922-c96f-401f-8dea-4624ef4da61c/Revolut-logo.png",
-        claim="TEST",
-        description="TEST",
-        amount=100,
-        tag="test"
         )
 ]
 
